@@ -1,11 +1,24 @@
-## Build Setup
+# vue-g6
 
-``` bash
-# 安装依赖
+## Project setup
+```
 npm install
+```
 
-# 运行开发环境
-npm run dev
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-# 打包发版生产环境
+### Compiles and minifies for production
+```
 npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

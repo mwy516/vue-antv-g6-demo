@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import Vue from "vue";
 import router from './router'
 import App from './App'
 import "babel-polyfill"
