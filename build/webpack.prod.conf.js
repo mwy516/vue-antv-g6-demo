@@ -78,14 +78,14 @@ const webpackConfig = merge(baseWebpackConfig, {
         }
     },
     plugins: [
-        // extract css into its own file
+        // extract fonts into its own file
         // new ExtractTextPlugin({
-        //   filename: utils.assetsPath('css/[name].[contenthash].css'),
+        //   filename: config.assetsPath('fonts/[name].[contenthash].fonts'),
         //   allChunks: true,
         // }),
         new MiniCssExtractPlugin({
-            filename: 'css/app.[name].css',
-            chunkFilename: 'css/app.[contenthash:12].css'  // use contenthash *
+            filename: 'fonts/app.[name].fonts',
+            chunkFilename: 'fonts/app.[contenthash:12].fonts'  // use contenthash *
         }),
 
         // generate dist index.html with correct asset hash for caching.

@@ -30,6 +30,8 @@ module.exports = {
       '@': resolve('src'),
       'pages': resolve('src/pages'),
       'components': resolve('src/components'),
+      'store': resolve('src/store'),
+      'assets': resolve('src/assets'),
     }
   },
   module: {
@@ -50,15 +52,7 @@ module.exports = {
         options: {
           esModule: false,
           limit: 10000,
-          name: utils.assetsPath('img/[name].[hash:7].[ext]')
-        }
-      },
-      {
-        test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
-        loader: 'url-loader',
-        options: {
-          limit: 10000,
-          name: utils.assetsPath('media/[name].[hash:7].[ext]')
+          name: utils.assetsPath('imgs/[name].[hash:7].[ext]')
         }
       },
       {

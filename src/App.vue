@@ -5,10 +5,12 @@
 </template>
 <script>
     export default {
+        name: 'App',
         mounted() {
             this.checkIEFunc()
         },
         methods: {
+            // IE路由跳转
             checkIEFunc() {
                 function checkIE() {
                     return '-ms-scroll-limit' in document.documentElement.style && '-ms-ime-align' in document.documentElement.style
@@ -29,6 +31,6 @@
     *{
         padding: 0;
         margin: 0;
-        font-size: 14px;
+        font-size: 12px;
     }
 </style>

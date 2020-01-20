@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('./iconfont/iconfont.eot?t=1579506516895'); /* IE9 */
+  src: url('./iconfont/iconfont.eot?t=1579506516895#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO8AAsAAAAACBAAAANuAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDcIMkATYCJAMMCwgABCAFhG0HPxvzBlFULbJkH4uxrRq2xFkMy3/B859b733MwGcHIqZOTGx/51LGvHIvc3Zrurawjcp5tkStqaZ/vvl25y8N6zxOoxRCgnD8z+X0Wl5g83vDce3pR/cCjAMKbOwBFGiBlCg3jF15EashgKE8Ldyu3XdHp47G6CSAzJ0VKKee0qFrigUXwSkZqZED2LjWTusWsN//vHyhsbhgYSuMtQZOn/vO6H3x95VUEAkYqwKC8SwAGwcKqIuDBhlfahtJKYzVpYRRZOX6bAeNYI0VjETA56l/eA4OYCEgDkahD0BNGLfgfXGbF8srQcFZ82+uvQN4wDVgJF7UF8WgOdiFNbl0W39Rs2b4ser5r6ThnEyuUehqahn71GQPY9Nm+ZJPXmKUUacyqvtX0kpaJsrjZHq1fLszRTyGrfDi75fTZ+41zZ+QU94+n9vCk+PHdx+F4MiuY8XF7LqBDm5WK3A9eshI2BiOlFlENtazFBvqHT++8ZjJOBIcHZpvd0wp7h/BDkPIsLuePmX8XSdOto55Mn/M/05nDxUt7TsNFvoLGzix/vROo+NG14n9Gfcze8TLBy/bmnc82mt071DB4GVQMNR7tL8yzpUD20pVLhVXXq0YQzgSdLSdU47uOGTgX7/ev4HrOrqphVND0SH3F27HdUX2FD9VfHfFIQV326fstUWCGu/n2UGQwgfWiY+HedpgWNbmhsOlunAoER7mx8X5Tr+8PCYCEElTOaqznwirTWr4r/wOvbPe2RMKtP3nehqAF33WDoWeSFhW0y7fwcWC1vwfx2+J0arQ0Cst82yenlTMpvpatBhVzu8qBSjMr7+jGE5sEVzOh2ARRTlQuFTFaVJdsPFoCg4uHcBQh+V4jyIwJUSHgNq8AAgFeYNFfjJBUZAPTpO+YFOcPzgUFAWG4VJkRo/qMst0WYxK0IfLEyJNubGM0gyK9xhcU8VJoU89IxdREPr1G2aTS8yRx+hT3IKBiAHDlMECrIdpSmCZYtTSCUXssNtgetmTOpoyp0kXGEQhID7AhSdAhIbIMW5loZl7/x4k4EqKgmtQFe4zCFMQ1Q706dBrgVvK8laoazmn4EbAAEEwAAaGyAAWwIKkZowAbHmzGEQjdAh7RCxDuqicaSvrzK/Inm8VYDAOVGKJEk3BJUKsAmxrZZWO5Ok1aoEDAAA=') format('woff2'),
+  url('./iconfont/iconfont.woff?t=1579506516895') format('woff'),
+  url('./iconfont/iconfont.ttf?t=1579506516895') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('./iconfont/iconfont.svg?t=1579506516895#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-storage-capacity:before {
+  content: "\e621";
+}
+
+.icon-17:before {
+  content: "\e616";
+}
+

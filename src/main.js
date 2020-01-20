@@ -1,12 +1,15 @@
 import Vue from "vue";
-import router from './router'
+import routes from './router'
 import App from './App'
-import "babel-polyfill"
-import './config/element-config'
+import 'babel-polyfill'
+import initRouter from './config/router'
 
 Vue.config.productionTip = false;
 
+export { initRouter }
+
 new Vue({
-  router,
+  el: '#app',
+  router: initRouter(routes),
   render: h => h(App)
-}).$mount('#app')
+})
